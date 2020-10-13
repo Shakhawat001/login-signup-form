@@ -1,0 +1,156 @@
+/* Global */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  font-family: expletus sans;
+  font-weight: bold;
+}
+
+.btn {
+  height: 3.9em;
+  width: 25em;
+  border-radius: 50rem;
+  border: none;
+  background-color: #fff;
+  color: #474747;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.btn:hover {
+  box-shadow: #00000025 -1px 4px 10px;
+  border: 0.1rem solid #47474750;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.illustration {
+  height: 100%;
+}
+
+.greenText {
+  color: #00c896;
+  text-decoration: none;
+}
+
+.formBox {
+  margin-top: 1em;
+  height: 3.9em;
+  width: 24em;
+  border-radius: 50rem;
+  border: none;
+  background-color: #f4f8f5;
+  color: #474747;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  padding-left: 2em;
+  transition: 0.6s;
+}
+
+.formBox:hover {
+  box-shadow: #00000025 -1px 4px 10px;
+}
+
+::placeholder {
+  color: #a7a7a7;
+  font-weight: 500;
+}
+
+/*------------------- hero Page -------------------*/
+
+.heroPage {
+  background-color: #00c896;
+  text-align: center;
+}
+
+.heroText {
+  color: #fff;
+}
+
+.hero .logo {
+  font-size: 6rem;
+  margin-top: 2em;
+}
+
+.heroTitle {
+  font-size: 1.1rem;
+}
+
+/*Buttons */
+
+.heroBtn {
+  margin-top: 13em;
+}
+
+.heroSignIn {
+  margin-top: 16px;
+  color: #00c896;
+}
+
+/*------------------- Sign In & Sign Up Page -------------------*/
+.signInSection {
+  text-align: center;
+  width: 100%;
+  .logo {
+    font-size: 5rem;
+    margin-top: 1.6em;
+  }
+  .title {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+.googleBtn {
+  box-shadow: #00000025 -1px 4px 10px;
+  margin-top: 2em;
+  img {
+    vertical-align: middle;
+    margin-right: 100px;
+  }
+  .btnText {
+    vertical-align: middle;
+    margin-right: 130px;
+  }
+}
+
+.signInLink {
+  font-size: 1.05rem;
+  margin-top: 3.5em;
+}
+
+.signInForm {
+  margin-top: 1.5em;
+}
+
+.submitBtn {
+  margin-top: 2.8em;
+  color: #fff;
+  background-color: #00c896;
+  font-weight: bold;
+}
+
+.submitBtn:hover {
+  background-color: #fff;
+  color: #00c896;
+  border: none;
+}
+
+#forgotPassword{
+    margin-top: 2em;
+}
